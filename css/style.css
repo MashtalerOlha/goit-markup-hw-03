@@ -208,10 +208,13 @@
  }
 
 .superiority-item {
-    margin-right: 8px;
     padding-top: 94px;
-
 }
+
+.superiority-item:not(:last-child) {
+    margin-right: 8px;;
+}
+
 
  .about-us-title {
      margin: 0;
@@ -251,9 +254,14 @@
     margin-right: 30px;
 }
 
+.work-item  {
+    width: calc((100% - 60px) / 3);
+}
+
 .work-list {
     display: flex;
 }
+
 
 
 /* <!-- секція наша команда --> */
@@ -262,7 +270,6 @@
     display: flex;
     margin-top: 50px;
     margin-bottom: 94px;
-
 }
 
 .team {
@@ -271,6 +278,10 @@
 
 .team-item:not(:last-child) {
  margin-right: 30px;
+}
+
+.team-item {
+    width: calc((100% - 90px) / 4);
 }
 
 .team-title {
@@ -368,19 +379,20 @@ color:  var(--footer-link-color);
     display: flex;
     justify-content: center;
     height: 54px;
-    /* margin-top: 94px; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
 }
 
-.filter-button {
+    /* margin-top: 94px; */
+
+.filter-button-item {
     margin-right: 8px;
 }
 
-/* .filter-button:last-child {
+.filter-button-item:last-child {
     margin-right: 0;
-} */
+}
 
 .filter-button {
     border: none;
