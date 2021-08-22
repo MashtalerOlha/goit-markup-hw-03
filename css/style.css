@@ -211,15 +211,17 @@
 
  .superiority-list {
      display: flex;
+     margin-left: -30px;
  }
 
 
-.superiority-item:not(:last-child) {
+/* .superiority-item:not(:last-child) {
     margin-right: 8px;;
-}
+} */
 
 .superiority-item {
-    width: calc((100% - 24px) / 4);
+    width: calc((100% - 30px) / 4);
+    margin-left: 30px;
 }
 
  .about-us-title {
@@ -302,8 +304,8 @@
 }
 
 .team-content {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name {
@@ -365,7 +367,8 @@
     color: var(--secondary-title-color);
 }
 .contacts-link-footer {
-color:  var(--footer-link-color);     
+color:  var(--footer-link-color);
+display: block;
  }
  
 .contacts-link-footer:hover,
@@ -433,6 +436,10 @@ color:  var(--footer-link-color);
 
 .project-title-name {
     padding: 20px 24px ;
+}
+
+.project-card {
+    border: 1px solid #EEEEEE;
 }
 
 .project-card {
